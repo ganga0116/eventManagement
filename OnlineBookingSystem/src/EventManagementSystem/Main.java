@@ -24,7 +24,7 @@ public class Main {
 		                    System.out.print("Enter Event ID: ");
 		                    int id = scanner.nextInt();
 		                    scanner.nextLine();  // Consume newline
-		                    System.out.print("Enter Event Name: ");
+		                    System.out.print("Enter Event Name: ")
 		                    String name = scanner.nextLine();
 		                    System.out.print("Enter Event Date (yyyy-mm-dd): ");
 		                    String dateStr = scanner.nextLine();
