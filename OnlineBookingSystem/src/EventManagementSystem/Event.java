@@ -47,5 +47,9 @@ public class Event {
 	        this.eventVenue = eventVenue;
 	    }
 
+	 @Override
+	    public String toString() {
+	        return "Event ID: " + eventId + ", Name: " + eventName + ", Date: " + eventDate + ", Venue: " + eventVenue;
+	    }
 	   
 }
